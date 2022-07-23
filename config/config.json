@@ -1,0 +1,23 @@
+{
+  "embedding_size": 16,
+  "batch_size": 5120,
+  "epochs": 10,
+  "validation_split": 0.1,
+  "verbose": 2,
+  "isShuffle" : "False",
+  "seq_max_len": 5,
+  "hashFlg": "False",
+  "pooling": "sum",
+  "cross_num": 2,
+  "cross_parameterization": "vector",
+  "hidden_size": [256, 128, 64],
+  "early_stop_patience": 4,
+  "early_stop_dependency": "val_loss",
+  "dnn_dropout": 0.5,
+  "optimizer": "adam",
+  "loss": "binary_crossentropy",
+  "auc_thresholds": 200,
+  "metrics": [
+    "binary_crossentropy"
+  ]
+}
