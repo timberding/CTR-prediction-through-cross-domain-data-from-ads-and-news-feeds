@@ -7,3 +7,8 @@ python preprocess.py --input_dir "input_dir"
 
 model train and predict, get pctr: 
 python train.py --input_dir "input_dir" --output_dir "output_dir" --model_config_path "model_config_path"
+
+
+Environment:
+
+tensorflow==2.0.0
